@@ -19,6 +19,21 @@ High-contrast, colourful images tend to work better than flatter images. Skin to
 particularly poorly represented in the ANSI colour pallette.
 ![lena looks bad](https://cloud.githubusercontent.com/assets/4640028/13073360/705a85b0-d4f2-11e5-917a-fdb91e5e45b9.png)
 
+# Install fer Gentoo
+
+    emerge -avNu rust
+    curl -sSf https://static.rust-lang.org/rustup.sh | sh
+    cd /home/el/bin
+    git clone https://github.com/hopey-dishwasher/termpix.git
+    cd /home/el/bin/termpix/
+    cargo build
+
+
+    el@defiant ~/bin/termpix/target/debug $ ./termpix ultron.png
+    output happens here
+
+
+
 # License
 Apache 2.0 license
 
