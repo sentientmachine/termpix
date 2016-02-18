@@ -33,6 +33,8 @@ particularly poorly represented in the ANSI colour pallette.
     output happens here
 
 
+(http://i.imgur.com/Ij8tItE.png)
+
 
 # License
 Apache 2.0 license
